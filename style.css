@@ -1,0 +1,157 @@
+body{   
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}    
+
+.wrapper{
+    background: url(school.jpeg)
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(237, 11, 11, 0.693);
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem; 
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 16.3px;
+  
+}
+
+img{
+    
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+    margin-left: 1.6rem;
+    margin-top: -0%;
+}
+
+nav ul li:hover, .dropdown:hover .dropbtn {
+    background-color: #f1f1f1ce;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {background-color: gray;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    color: #fff;
+    line-height: 50px; 
+}
+
+.section p{
+    color: gray;
+}
+
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses{
+    display: flex;
+    text-align: center;
+}
+
+#courses img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    margin-top: 4%
+}
+@media only screen and (max-width: 600px){
+    *{
+        width: 100%;
+        clear: both;
+    }
+}   
+
+
